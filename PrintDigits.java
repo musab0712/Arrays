@@ -1,8 +1,7 @@
-import java.util.*;
+
 class PrintDigits{
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int num=sc.nextInt();
+        int num = 545;
         int reverse=0;
         int reminder;
         while(num>0){

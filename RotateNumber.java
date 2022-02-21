@@ -1,10 +1,8 @@
-import java.util.*;
 
 class RotateNumber{
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int k=sc.nextInt();
+        int n = 3;
+        int k=4;
         int count=0;
         int r=n;
         while(r>0){

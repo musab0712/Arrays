@@ -1,10 +1,8 @@
-import java.util.*;
 import java.lang.Math;
 
 class InverseNum{
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
-        int number=sc.nextInt();
+        int number=675;
         int inverse=0,i=1,rem;
         while(number>0){
             rem=number%10;
